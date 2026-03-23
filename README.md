@@ -2,8 +2,7 @@
 <h3 align="center">SlackOff Churn Risk Analysis</h3>
 <p align="center"><em>Identifying and scoring B2B SaaS customers at risk of cancellation</em></p>
 <br>
-
-<h2>The Problem</h2>
+<h2>Business Problem</h2>
 <p>SlackOff Workspace Solutions is a fictional B2B SaaS company serving 300 business clients on a monthly subscription. From January 2024, revenue started declining month after month. Their most valuable Enterprise clients were quietly disengaging — some had already cancelled, others were heading in that direction.</p>
 <p>The real problem was not the churn itself. It was the invisibility of it.</p>
 <p>The Customer Success team had no early warning system. No way of knowing a client was thinking about leaving until the cancellation email had already arrived. By that point, the relationship was gone and so was the revenue.</p>
