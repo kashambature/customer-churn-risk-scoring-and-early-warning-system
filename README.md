@@ -1,8 +1,6 @@
-# customer-churn-risk-scoring-and-early-warning-system
-
-<h1>SlackOff Churn Risk Analysis</h1>
-<p><em>Identifying and scoring B2B SaaS customers at risk of cancellation</em></p>
-
+<h1 align="center">Customer Churn Risk Scoring and Early Warning System</h1>
+<h3 align="center">SlackOff Churn Risk Analysis</h3>
+<p align="center"><em>Identifying and scoring B2B SaaS customers at risk of cancellation</em></p>
 <br>
 
 <h2>The Problem</h2>
