@@ -26,26 +26,20 @@ There is no machine learning and no black box. Every score can be explained sign
 
 ## What the Data Revealed
 
-### 1. Revenue fell by 14.7% in just 6 months
+1. **Revenue fell by 14.7% in just 6 months**  
+   Monthly recurring revenue fell from $245,227 in January 2024 to $209,084 in June 2024. That means the business lost $36,143 every month. If the trend continues unchecked, the annualised impact is $433,716.
 
-Monthly recurring revenue fell from $245,227 in January 2024 to $209,084 in June 2024. That means the business lost $36,143 every month. If the trend continues unchecked, the annualised impact is $433,716.
+2. **Enterprise clients carry a disproportionate share of the risk**  
+   Enterprise clients make up only 24.7% of the client base, yet they generate 58.3% of all platform activity. Losing one Enterprise account does not feel like losing one client. It feels like losing five.
 
-### 2. Enterprise clients carry a disproportionate share of the risk
+3. **The most dangerous clients do not complain loudly**  
+   The highest risk accounts showed no complaints, no downgrade requests, and no active negotiation. They had already made their decision. The data identified them through behaviour, not communication.
 
-Enterprise clients make up only 24.7% of the client base, yet they generate 58.3% of all platform activity. Losing one Enterprise account does not feel like losing one client. It feels like losing five.
+4. **Logging in does not mean they are staying**  
+   Several clients maintained steady login activity while their actual feature engagement collapsed completely. Employees were opening the platform out of habit, while the wider team had quietly migrated to a competing tool. This pattern, which can be described as hollow engagement, is invisible if login activity is the only metric being tracked.
 
-### 3. The most dangerous clients do not complain loudly
-
-The highest risk accounts showed no complaints, no downgrade requests, and no active negotiation. They had already made their decision. The data identified them through behaviour, not communication.
-
-### 4. Logging in does not mean they are staying
-
-Several clients maintained steady login activity while their actual feature engagement collapsed completely. Employees were opening the platform out of habit, while the wider team had quietly migrated to a competing tool. This pattern, which can be described as hollow engagement, is invisible if login activity is the only metric being tracked.
-
-### 5. Support frustration is widespread
-
-A total of 36% of all clients showed signs of support frustration. Urgent tickets were going unresolved at a rate of 31%, compared with an industry benchmark of less than 5%. This is not a small pocket of unhappy users. It is a systemic problem that feeds directly into churn risk.
-
+5. **Support frustration is widespread**  
+   A total of 36% of all clients showed signs of support frustration. Urgent tickets were going unresolved at a rate of 31%, compared with an industry benchmark of less than 5%. This is not a small pocket of unhappy users. It is a systemic problem that feeds directly into churn risk.
 ---
 
 ## The Scoring System
