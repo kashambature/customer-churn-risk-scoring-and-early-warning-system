@@ -95,15 +95,6 @@ Each client is scored from 0 to 100 across 8 signals. The score determines the l
 
 ## Dashboard
 
-The Power BI dashboard connects live to the `vw_churn_risk_scores` MSSQL view and gives the Customer Success team everything they need to prioritise their week without running a single query.
-
-| Visual | Purpose |
-|---|---|
-| KPI cards for High Risk, At Risk, and Healthy counts | Gives a quick headline summary |
-| Revenue at risk KPI card | Shows the financial urgency for leadership |
-| Risk distribution bar chart | Displays the breakdown across all 300 companies |
-| Stacked bar chart by plan tier | Highlights which tier carries the highest concentration of risk |
-| Colour-coded intervention priority table | Shows the Customer Success team exactly who to contact first |
 
 ---
 
