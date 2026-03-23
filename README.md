@@ -4,11 +4,7 @@
 
 ## The Business Problem
 
-SlackOff Workspace Solutions is a fictional B2B SaaS company serving 300 business clients on a monthly subscription. From January 2024, revenue started declining month after month. Their most valuable Enterprise clients were quietly disengaging. Some had already cancelled, while others were heading in that direction.
-
-The real problem was not the churn itself. It was the invisibility of it.
-
-The Customer Success team had no early warning system. They had no way of knowing a client was thinking about leaving until the cancellation email had already arrived. By that point, the relationship was gone, and so was the revenue.
+SlackOff Workspace Solutions is a fictional B2B SaaS company serving 300 business clients on a monthly subscription. From **January 2024**, revenue started declining month after month. Their most valuable Enterprise clients were quietly disengaging. Some had already cancelled, while others were heading in that direction. The real problem was not the churn itself. It was the invisibility of it. **The Customer Success team had no early warning system**. They had no way of knowing a client was thinking about leaving until the cancellation email had already arrived. By that point, the relationship was gone, and so was the revenue.
 
 This project was built to change that.
 
@@ -16,21 +12,21 @@ This project was built to change that.
 
 ## The Approach
 
-I analysed 18 months of client activity data, covering more than 1 million rows across logins, feature usage, billing records, and support interactions, to find the behavioural patterns that consistently appear before a client cancels.
+I analysed **18 months of client activity data**, covering more than 1 million rows across logins, feature usage, billing records, and support interactions, to find the behavioural patterns that consistently appear before a client cancels.
 
-The output is a rule-based churn risk scoring engine built entirely in SQL. Each of the 300 clients receives a score from 0 to 100 based on 8 behavioural signals weighted by business impact. The results feed directly into a live Power BI dashboard connected to an MSSQL view.
+The output is a rule-based churn risk scoring engine built entirely in SQL. Each of the **300 clients** receives a score from **0 to 100 based on 8 behavioural signals** weighted by business impact. The results feed directly into a live Power BI dashboard connected to an MSSQL view.
 
-There is no machine learning and no black box. Every score can be explained signal by signal to a non-technical stakeholder, which is exactly what a Customer Success team needs in order to act with confidence.
+The goal of this analysis was to identify customers showing early signs of churn before cancellation happens, quantify the level of revenue at risk, and give the Customer Success team a practical way to prioritise intervention. In simple terms, the analyst was brought into this project to uncover the warning signs hidden in customer behaviour, turn those signals into a clear risk-scoring framework, and help the business act early enough to improve retention.
 
 ---
 
 ## What the Data Revealed
 
 1. **Revenue fell by 14.7% in just 6 months**  
-   Monthly recurring revenue fell from $245,227 in January 2024 to $209,084 in June 2024. That means the business lost $36,143 every month. If the trend continues unchecked, the annualised impact is $433,716.
+   Monthly recurring revenue fell from **$245,227 in January 2024 to $209,084 in June 2024**. That means the business lost **$36,143 every month**. If the trend continues unchecked, the annualised impact is **$433,716**.
 
 2. **Enterprise clients carry a disproportionate share of the risk**  
-   Enterprise clients make up only 24.7% of the client base, yet they generate 58.3% of all platform activity. Losing one Enterprise account does not feel like losing one client. It feels like losing five.
+   Enterprise clients make up only **24.7%** of the client base, yet they generate **58.3%** of all platform activity. Losing one Enterprise account does not feel like losing one client. It feels like losing five.
 
 3. **The most dangerous clients do not complain loudly**  
    The highest risk accounts showed no complaints, no downgrade requests, and no active negotiation. They had already made their decision. The data identified them through behaviour, not communication.
@@ -39,7 +35,7 @@ There is no machine learning and no black box. Every score can be explained sign
    Several clients maintained steady login activity while their actual feature engagement collapsed completely. Employees were opening the platform out of habit, while the wider team had quietly migrated to a competing tool. This pattern, which can be described as hollow engagement, is invisible if login activity is the only metric being tracked.
 
 5. **Support frustration is widespread**  
-   A total of 36% of all clients showed signs of support frustration. Urgent tickets were going unresolved at a rate of 31%, compared with an industry benchmark of less than 5%. This is not a small pocket of unhappy users. It is a systemic problem that feeds directly into churn risk.
+   A total of **36%** of all clients showed signs of support frustration. Urgent tickets were going unresolved at a rate of 31%, compared with an industry benchmark of less than 5%. This is not a small pocket of unhappy users. It is a systemic problem that feeds directly into churn risk.
 ---
 
 ## The Scoring System
@@ -59,22 +55,13 @@ Each client is scored from 0 to 100 across 8 signals. The score determines the l
 
 ### Risk Categories
 
-| Score Range | Category | Action |
-|---|---|---|
-| 61 to 100 | High Risk | Immediate executive escalation |
-| 31 to 60 | At Risk | Customer Success outreach within 2 weeks |
-| 0 to 30 | Healthy | Quarterly check-in |
+The churn risk scores were grouped into three categories to guide action. Clients with scores between **61 and 100** were classified as **High Risk** and required immediate executive escalation. Clients with scores between **31 and 60** were classified as **At Risk** and were marked for Customer Success outreach within two weeks. Clients with scores between **0 and 30** were classified as **Healthy** and only required a routine quarterly check-in.
 
 ---
 
 ## Results
 
-| Metric | Value |
-|---|---:|
-| High Risk clients requiring immediate intervention | 4 |
-| At Risk clients needing outreach within 2 weeks | 52 |
-| Monthly recurring revenue at immediate risk | $44,000 |
-| Clients who visited the cancellation page in the last 60 days | 47 |
+The final scoring model identified **4 High Risk clients** that required immediate intervention and **52 At Risk clients** that needed Customer Success outreach within two weeks. It also revealed that **$44,000 in monthly recurring revenue** was exposed to immediate churn risk. In addition, **47 clients** had visited the cancellation page within the last 60 days, signalling a notable level of active cancellation intent.
 
 ---
 
