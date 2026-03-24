@@ -48,16 +48,16 @@ Each client is scored from 0 to 100 across 8 signals. The score determines the l
 | Downgrade inquiry | 10 | They are still engaging, so there is still a retention window |
 | No new invites and declining spend | 5 | Growing companies add people, while exiting companies stop |
 
-## Churn Signals and Weights
+## Churn Risk Signals
 
-- **Cancellation page visited** — **25 points**: Direct exit intent  
-- **Login drop of 40% to 50%** — **15 points**: Reduced engagement  
-- **Feature usage collapsed** — **15 points**: Low product dependence  
-- **Seats below 60% utilised** — **10 points**: Underused subscription value  
-- **Support frustration** — **10 points**: Service dissatisfaction  
-- **Payment irregularity** — **10 points**: Billing instability  
-- **Downgrade inquiry** — **10 points**: Reduced commitment  
-- **No new invites and declining spend** — **5 points**: Slowing account growth  
+- **Cancellation page visited** (**25 points**): Direct exit intent  
+- **Login drop of 40% to 50%** (**15 points**): Reduced engagement  
+- **Feature usage collapsed** (**15 points**): Low product dependence  
+- **Seats below 60% utilised** (**10 points**): Underused subscription value  
+- **Support frustration** (**10 points**): Service dissatisfaction  
+- **Payment irregularity** (**10 points**): Billing instability  
+- **Downgrade inquiry** (**10 points**): Reduced commitment  
+- **No new invites and declining spend** (**5 points**): Slowing account growth  
 
 ### Risk Categories
 
