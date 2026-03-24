@@ -9,7 +9,7 @@ SlackOff Workspace Solutions is a fictional B2B SaaS company serving 300 busines
 ---
 ## The Approach
 
-To solve the problem, I analysed 18 months of client activity data, covering more than 1 million records across logins, feature usage, billing behaviour, and support interactions. The goal was to identify the behavioural signals that consistently appear before cancellation. Using these patterns, I built a rule-based churn risk scoring model in SQL that assigned each of the 300 clients a score from 0 to 100 based on 8 weighted indicators. The final output was connected to a live Power BI dashboard through an MSSQL view, making the results easy to monitor and act on. This gave the Customer Success team a practical way to spot early churn risk, understand the revenue at stake, and prioritise intervention before customers were lost.
+To solve the problem, I analysed 18 months of client activity data, covering more than 1 million records across logins, feature usage, billing behaviour, and support interactions. The goal was to identify the **behavioural signals that consistently appear before cancellation**. Using these patterns, I built a**rule-based churn risk scoring model** in SQL that assigned each of the 300 clients **a score from 0 to 100 based on 8 weighted indicators**. The final output was connected to a live Power BI dashboard through an MSSQL view, making the results easy to monitor and act on. This gave the **Customer Success team** a practical way to spot early churn risk, understand the revenue at stake, and prioritise intervention before customers were lost.
 
 ---
 ## What the Data Revealed
@@ -39,24 +39,24 @@ To solve the problem, I analysed 18 months of client activity data, covering mor
 - **No new invites and declining spend** (**5 points**): Slowing account growth
 ---
 
-### Risk Categories
+## Risk Categories
 
-The churn risk scores were grouped into three categories to guide action. Clients with scores between **61 and 100** were classified as **High Risk** and required immediate executive escalation. Clients with scores between **31 and 60** were classified as **At Risk** and were marked for Customer Success outreach within two weeks. Clients with scores between **0 and 30** were classified as **Healthy** and only required a routine quarterly check-in.
+Churn scores were grouped into three categories for action. Scores of **61 to 100** were classified as **High Risk** and required immediate escalation. Scores of **31 to 60** were classified as **Medium Risk** and required Customer Success outreach within two weeks. Scores of **0 to 30** were classified as **Healthy** and required only routine quarterly monitoring.
 
 ---
 
 ## Results
 
-The final scoring model identified **4 High Risk clients** that required immediate intervention and **52 At Risk clients** that needed Customer Success outreach within two weeks. It also revealed that **$44,000 in monthly recurring revenue** was exposed to immediate churn risk. In addition, **47 clients** had visited the cancellation page within the last 60 days, signalling a notable level of active cancellation intent.
+The scoring model identified **4 High Risk clients**, **52 Medium Risk clients**, and **$7.7K in monthly revenue at risk**. It also showed that **38 clients** had viewed the cancellation page within the **latest 6 billing months**, indicating a meaningful level of recent cancellation intent.
 
 ---
 
 ## Recommendations
 
-- Escalate the 4 High Risk accounts to executive level immediately, before they cancel rather than after.
+- Escalate the **4 High Risk accounts** to executive level immediately, before they cancel rather than after.
 - Do not offer discounts to silent exit mode clients. They have moved beyond negotiation. What they need is a relationship recovery conversation, not a pricing adjustment.
-- Investigate hollow engagement accounts. Stable logins combined with collapsed feature usage suggest active migration to a competitor, not temporary inactivity.
-- Treat the 36% support frustration rate as a company-wide operational emergency. Improving support quality alone could reduce churn risk across more than one-third of the client base.
+- Investigate **hollow engagement accounts**. Stable logins combined with collapsed feature usage suggest active migration to a competitor, not temporary inactivity.
+- Treat the **36% support frustration rate** as a company-wide operational emergency. Improving support quality alone could reduce churn risk across more than one-third of the client base.
 
 ---
 
