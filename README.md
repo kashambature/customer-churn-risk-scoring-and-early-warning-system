@@ -61,7 +61,7 @@ The scoring model identified **4 High Risk clients**, **52 Medium Risk clients**
 ---
 
 ## Dashboard
-
+![SlackOff Churn Dashboard](./SlackOff%20Churn%20Dashboard.png)
 
 ---
 
