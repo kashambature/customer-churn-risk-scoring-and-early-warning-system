@@ -14,39 +14,18 @@ To solve the problem, I analysed 18 months of client activity data, covering mor
 ---
 ## What the Data Revealed
 
-1. **Revenue declined sharply over a short period**  
-   Monthly recurring revenue fell from **$245,227 in January 2024 to $209,084 in June 2024**, representing a **14.7% decline in just six months**. This showed that customer churn was already creating a measurable financial impact on the business.
+1. **Revenue declined sharply:** Monthly recurring revenue fell from **$245,227 in January 2024 to $209,084 in June 2024**, showing that churn was already creating a measurable financial impact.
 
-2. **Enterprise clients carried a disproportionate share of the exposure**  
-   Although Enterprise clients made up only **24.7%** of the customer base, they accounted for **58.3%** of total platform activity. This meant that losing even a small number of these accounts could have an outsized effect on both usage and recurring revenue.
+2. **Enterprise clients carried outsized exposure:** Although they made up only **24.7%** of the customer base, they accounted for **58.3%** of total platform activity, meaning a small number of losses could have a major revenue effect.
 
-3. **The highest-risk clients often showed silent disengagement**  
-   The most vulnerable accounts did not always complain, request downgrades, or signal dissatisfaction directly. In many cases, the warning signs appeared first in their behaviour, not in their communication.
+3. **High-risk clients often disengaged silently:** The most vulnerable accounts did not always complain or request downgrades, as the warning signs appeared first in their behaviour rather than in direct communication.
 
-4. **Login activity alone was not a reliable measure of retention**  
-   Some clients continued to log in regularly even while their deeper feature usage dropped significantly. This suggested that surface-level activity could hide underlying disengagement and possible migration to competing tools.
+4. **Login activity alone was misleading:** Some clients continued logging in regularly even as deeper feature usage dropped significantly, suggesting hidden disengagement and possible migration to competitors.
 
-5. **Support issues were emerging as a major churn driver**  
-   A total of **36%** of clients showed signs of support frustration, while urgent tickets remained unresolved at a rate of **31%**, far above normal expectations. This pointed to operational service quality as a meaningful contributor to churn risk.
+5. **Support issues emerged as a major churn driver:** About **36%** of clients showed signs of support frustration, while urgent tickets remained unresolved at a rate of **31%**, far above normal expectations.
 
-6. **Cancellation-page activity reinforced the presence of active exit intent**  
-   Beyond broader behavioural decline, some clients also showed more direct signs of churn intent by viewing the cancellation page. This strengthened the case for treating cancellation-page activity as one of the strongest warning signals in the scoring framework.
+6. **Cancellation-page activity confirmed exit intent:** Some clients went beyond passive disengagement and directly viewed the cancellation page, reinforcing its value as a strong churn signal.
 ---
-
-## The Scoring System
-
-Each client is scored from 0 to 100 across 8 signals. The score determines the level of intervention required.
-
-| Signal | Points | What it catches |
-|---|---:|---|
-| Cancellation page visited | 25 | Clear evidence of exit intent |
-| Login drop of 40% to 50% | 15 | People have stopped showing up |
-| Feature usage collapsed | 15 | They still log in, but no longer do meaningful work inside the product |
-| Seats below 60% utilised | 10 | They are paying for seats that nobody is using |
-| Support frustration | 10 | High ticket volume, low satisfaction, or unresolved critical issues |
-| Payment irregularity | 10 | Failed or late payments within the last 3 months |
-| Downgrade inquiry | 10 | They are still engaging, so there is still a retention window |
-| No new invites and declining spend | 5 | Growing companies add people, while exiting companies stop |
 
 ## Churn Risk Signals
 
@@ -57,7 +36,8 @@ Each client is scored from 0 to 100 across 8 signals. The score determines the l
 - **Support frustration** (**10 points**): Service dissatisfaction  
 - **Payment irregularity** (**10 points**): Billing instability  
 - **Downgrade inquiry** (**10 points**): Reduced commitment  
-- **No new invites and declining spend** (**5 points**): Slowing account growth  
+- **No new invites and declining spend** (**5 points**): Slowing account growth
+---
 
 ### Risk Categories
 
