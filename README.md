@@ -50,29 +50,14 @@ Each client is scored from 0 to 100 across 8 signals. The score determines the l
 
 ## Churn Signals and Weights
 
-1. **Cancellation page visited (25 points)**  
-   This signal captures clear evidence of exit intent.
-
-2. **Login drop of 40% to 50% (15 points)**  
-   This suggests that users have stopped showing up consistently.
-
-3. **Feature usage collapsed (15 points)**  
-   This shows that clients may still log in, but they are no longer doing meaningful work inside the product.
-
-4. **Seats below 60% utilised (10 points)**  
-   This indicates that the client is paying for seats that are not being actively used.
-
-5. **Support frustration (10 points)**  
-   This captures high ticket volume, low satisfaction, or unresolved critical issues.
-
-6. **Payment irregularity (10 points)**  
-   This reflects failed or late payments within the last three months.
-
-7. **Downgrade inquiry (10 points)**  
-   This suggests that the client is reconsidering value, although there is still a retention opportunity.
-
-8. **No new invites and declining spend (5 points)**  
-   This may indicate a slowdown in growth and possible disengagement from the platform.
+- **Cancellation page visited** — **25 points**: Direct exit intent  
+- **Login drop of 40% to 50%** — **15 points**: Reduced engagement  
+- **Feature usage collapsed** — **15 points**: Low product dependence  
+- **Seats below 60% utilised** — **10 points**: Underused subscription value  
+- **Support frustration** — **10 points**: Service dissatisfaction  
+- **Payment irregularity** — **10 points**: Billing instability  
+- **Downgrade inquiry** — **10 points**: Reduced commitment  
+- **No new invites and declining spend** — **5 points**: Slowing account growth  
 
 ### Risk Categories
 
